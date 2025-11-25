@@ -37,15 +37,15 @@ let frutas = ["Banana", "Laranja", "Maçã", "Pitaya", "Melancia", "Uva"]
 // console.log(fruta[5])
 
 //forEach => percorre uma lista
-frutas.forEach(fruta => {
-    console.log("A fruta é: " + fruta)
-})
+// frutas.forEach(fruta => {
+//     console.log("A fruta é: " + fruta)
+// })
 
-//Percorrer uma lista com for
-for  (let indice = 0; indice < frutas.length; indice++){
-    console.log(frutas[indice])
+// //Percorrer uma lista com for
+// for  (let indice = 0; indice < frutas.length; indice++){
+//     console.log(frutas[indice])
     
-    if(frutas[indice] == "Uva"){
-        console.log("Eu gosto de " + frutas[indice])
-    }
-}
+//     if(frutas[indice] == "Uva"){
+//         console.log("Eu gosto de " + frutas[indice])
+//     }
+// }
