@@ -19,3 +19,22 @@ saudacao()
 
 saudacao()
 saudacao()
+
+//--------------------------------------------------O---B----J---E----T----O-------------------------------------------------------------//
+
+let pessoa = {
+    nome: "Bolsonaro",
+    idade: 100,
+    sobrenome: "Preso",
+    estado: "SP",
+    cidade: "SCS"
+}
+// informações especificas 
+// console.log(pessoa.nome)
+// console.log(pessoa.idade)
+// console.log(pessoa.sobrenome)
+
+//TODAS AS INFORMAÇÕES//
+for(let chave in pessoa){
+    console.log(chave + " : " + pessoa[chave])
+}
