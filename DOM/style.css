@@ -1,0 +1,17 @@
+.texto {
+    color: #ef788c;
+
+}
+
+
+
+#formulario {
+    background-color: #c84a5f;
+    width: 350px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 21px;
+}
