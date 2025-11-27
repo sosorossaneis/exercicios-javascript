@@ -59,10 +59,10 @@ function Login() {
 let senha = prompt("Digite a sua senha: ")
 
 if(login == "admin" && senha == "senha123"){
-    console.log("Login bem sucedido!")
+    alert("Login bem sucedido!")
 }
 else{
-    console.log("Você não tem permissão de acesso!")
+    alert("Você não tem permissão de acesso!")
 }
 
 }
@@ -74,25 +74,25 @@ function calculoIMC() {
 
     let imc = peso / (altura * altura)
 
-    console.log("Seu IMC é: " + imc)
+    alert("Seu IMC é: " + imc)
 
     if (imc < 18.5) {
-        console.log("Abaixo do peso.")
+        alert("Abaixo do peso.")
     }
     else if (imc >= 18.5 && imc <= 24.9) {
-        console.log("Peso normal.")
+        alert("Peso normal.")
     }
     else if (imc >= 25 && imc <= 29.9) {
-        console.log("Sobrepeso")
+        alert("Sobrepeso")
     }
     else if (imc >= 30 && imc <= 34.4) {
-        console.log("Obesidade grau 1.")
+        alert("Obesidade grau 1.")
     }
     else if (imc >= 35 && imc <= 39.9) {
-        console.log("Obesidade grau 2.")
+        alert("Obesidade grau 2.")
     }
     else {
-        console.log("Obesidade grau 3.")
+        alert("Obesidade grau 3.")
     }
 
 }
@@ -102,9 +102,9 @@ function verificarNumeroImparOuPar() {
 let numero = parseInt(prompt("Informe um número inteiro: "))
 
 if(numero%2 == 0 ){
-    console.log("O Número é Par")
+    alert("O Número é Par")
 }else{
-    console.log("O Número é Impar")
+    alert("O Número é Impar")
 }
 }
 //MEDIA//
@@ -117,17 +117,17 @@ let nota4 = parseFloat(prompt("Informe a quarta nota: "))
 
 let media = (nota1 + nota2 + nota3 + nota4)/4
 
-console.log("A média do aluno é: " + media)
+alert("A média do aluno é: " + media)
 
 if (media >= 7){
-  console.log("APROVADO")
+  alert("APROVADO")
 }
 else if (media < 7 && media >=5){
-    console.log("Recuperação")
+    alert("Recuperação")
 }
 
 else {
-    console.log("Reprovado")
+    alert("Reprovado")
 }
 }
 //CRESCENTE/DECRESCENTE//
@@ -137,10 +137,10 @@ let numero02 = parseInt(prompt("Digite o segundo  número: "))
 let numero03 = parseInt(prompt("Digite o terceiro número: "))
 
 if (numero01 < numero02 && numero02 > numero03) {
-    console.log("Os números estão em ordem crescente!")
+    alert("Os números estão em ordem crescente!")
 }
 else {
-    console.log("Os números não estão em ordem crescente!")
+    alert("Os números não estão em ordem crescente!")
 }
 
 }
