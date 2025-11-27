@@ -1,4 +1,4 @@
-let atividades = prompt("Informe um número de 1 a 7: ")
+let atividades = prompt("Informe um número de 1 a 5: ")
 
 switch (atividades) {
     case "1":
@@ -18,13 +18,13 @@ switch (atividades) {
         break;
 
     case "5":
-       Peso()
+       Nascimento()
         break;
 
 }
 
 
-//Login 01//
+//--------------------------------------------LOGIN 01-------------------------------------------------------------------------------//
 function Login (){
 
 let login = prompt("Digite o seu usuário: ")
@@ -38,8 +38,8 @@ else{
     console.log("Você não tem permissão de acesso!")
 }}
 
-Login()
-//ordem crescente//
+
+//------------------------------------------------------------------ORDEM CRESCENTE---------------------------------//
 function Crescente(){
 let numero01 = parseInt(prompt("Digite o primeiro número: "))
 let numero02 = parseInt(prompt("Digite o segundo  número: "))
@@ -52,9 +52,9 @@ else {
     console.log("Os números não estão em ordem crescente!")
 }
 }
-Crescente()
 
-//desconto//
+
+//-----------------------------DESCONTO------------------------------------------------------------------------------------//
 function Desconto(){
 let valorTotal = parseFloat(prompt("Informe o valor total da compra: "))
 
@@ -78,8 +78,8 @@ let valorFinal = valorTotal - (valorTotal*desconto)
 console.log("O valor final da compra com o desconto: R$" + 
     valorFinal.toFixed(2))
 }
-Desconto()
-//Peso//
+
+//------------------------------------------PESO-----------------------------------------------------------//
 function Peso(){
     let peso = parseFloat(prompt("Informe seu peso (em Kg): "))
 let altura = parseFloat(prompt("Informe a sua altura (em metros): "))
@@ -108,9 +108,9 @@ else {
 }
 
 }
-Peso()
 
-//ano de nascimento//
+
+//---------------------------------NASCIMENTO----------------------------------------------------------------//
 function Nascimento(){
     let anoNascimento = parseInt(prompt("Digite o ano de nascimento: "))
 
@@ -128,4 +128,4 @@ else{
     console.log("Sua idade é: " + idade)
 }
 }
-Nascimento()
+
